@@ -1,0 +1,253 @@
+# ==========================================
+# Node.js / JavaScript
+# ==========================================
+
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Package manager caches
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/install-state.gz
+.yarn/build-state.yml
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Lock files — usually KEEP these!
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ==========================================
+# Environment variables / Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.test
+
+# ==========================================
+# Logs
+# ==========================================
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# Runtime files
+# ==========================================
+
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ==========================================
+# Build / Distribution
+# ==========================================
+
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.svelte-kit/
+.vercel/
+.netlify/
+.turbo/
+.cache/
+.parcel-cache/
+.vite/
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# ==========================================
+# Temporary files
+# ==========================================
+
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ==========================================
+# OS files
+# ==========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+.Trash-*
+
+# ==========================================
+# IDE / Editors
+# ==========================================
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+
+# ==========================================
+# Debugging
+# ==========================================
+
+.nyc_output/
+*.lcov
+
+# ==========================================
+# Testing
+# ==========================================
+
+coverage/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# ==========================================
+# React Native / Expo
+# ==========================================
+
+.expo/
+.expo-shared/
+.metro-health-check*
+
+# ==========================================
+# Next.js
+# ==========================================
+
+.next/
+out/
+
+# ==========================================
+# Nuxt
+# ==========================================
+
+.nuxt/
+.output/
+
+# ==========================================
+# Gatsby
+# ==========================================
+
+.cache/
+public/
+
+# ==========================================
+# Electron
+# ==========================================
+
+release/
+electron-builder.yml
+*.dmg
+*.exe
+*.AppImage
+*.deb
+*.rpm
+
+# ==========================================
+# Serverless
+# ==========================================
+
+.serverless/
+.aws-sam/
+
+# ==========================================
+# Firebase
+# ==========================================
+
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# ==========================================
+# Local databases
+# ==========================================
+
+*.sqlite
+*.sqlite3
+*.db
+
+# ==========================================
+# Certificates / Keys
+# ==========================================
+
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# ==========================================
+# Generated files
+# ==========================================
+
+generated/
+generated/*
+*.generated.*
+
+# ==========================================
+# Docker
+# ==========================================
+
+.docker/
+docker-compose.override.yml
+
+# ==========================================
+# Local configuration
+# ==========================================
+
+*.local
+config.local.*
